@@ -1,5 +1,5 @@
 import streamlit as st
-from react_openai_naive_python import react_agent
+from openai_react_agents_from_scratch.react_openai_native import react_agent
 
 st.set_page_config(layout="wide")
 
