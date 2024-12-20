@@ -1,0 +1,6 @@
+openai
+requests
+langchain
+streamlit<1.37
+python-dotenv
+beautifulsoup4==4.12.3
