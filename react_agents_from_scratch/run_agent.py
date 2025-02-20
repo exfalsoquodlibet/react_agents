@@ -9,8 +9,7 @@ REACT_AGENT_PROMPT = read_prompt_from_txt("react_agents_from_scratch/openai_reac
 tools = {
         'search_govuk': partial(tools.search_govuk, min_results=3),
         'search_govuk_services': partial(tools.search_govuk_services, page=1, min_results=6),
-        'ask_user': tools.ask_user,
-        'get_llm_response': tools.get_llm_response
+        'ask_user': tools.ask_user
     }
 
 user_question = input("Please enter your question: ")
