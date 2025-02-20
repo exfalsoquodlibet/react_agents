@@ -27,9 +27,3 @@ else:
     print("No answer found.\n\n")
 
 format_and_save_markdown(react_history, "react_history.md")
-
-# print("\n\n\n\n\n")
-# print("##############################################")
-# print("ReAct loop:")
-# print("\n\n")
-# print(react_history)
